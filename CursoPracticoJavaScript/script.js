@@ -23,3 +23,10 @@ console.log({
     parrafito,
     pid,
 });
+
+//manejo del html desde javaCript
+//h1.innerHTML = 'cambio... <br> desde javaScript...';
+
+h1.innerText = 'cambio... <br> desde javaScript...';
+
+console.log(h1.getAttribute('class'));
